@@ -53,20 +53,39 @@ Or after building:
 
 ## Controls
 
-The CHIP-8 uses a 16-key hexadecimal keypad. This emulator maps those keys to the following on your keyboard:
+This emulator uses a direct 1:1 mapping of hexadecimal keys to your keyboard:
 
 ```
-CHIP-8 Keypad    Keyboard
-+-+-+-+-+        +-+-+-+-+
-|1|2|3|C|        |1|2|3|4|
-+-+-+-+-+        +-+-+-+-+
-|4|5|6|D|        |Q|W|E|R|
-+-+-+-+-+  --->  +-+-+-+-+
-|7|8|9|E|        |A|S|D|F|
-+-+-+-+-+        +-+-+-+-+
-|A|0|B|F|        |Z|X|C|V|
-+-+-+-+-+        +-+-+-+-+
+CHIP-8 Key    Keyboard Key
+-----------   ------------
+     0             0
+     1             1
+     2             2
+     3             3
+     4             4
+     5             5
+     6             6
+     7             7
+     8             8
+     9             9
+     A             A
+     B             B
+     C             C
+     D             D
+     E             E
+     F             F
 ```
+
+## CHIP-8 ROMs
+
+You can find a collection of CHIP-8 ROMs at: https://github.com/netpro2k/Chip8
+
+This repository contains many classic CHIP-8 games including:
+- Pong
+- Space Invaders
+- Tetris
+- Breakout
+- And many more...
 
 ## License
 
