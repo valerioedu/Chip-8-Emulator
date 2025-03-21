@@ -68,16 +68,6 @@ CHIP-8 Keypad    Keyboard
 +-+-+-+-+        +-+-+-+-+
 ```
 
-## Included ROMs
-
-The emulator comes with several classic CHIP-8 games in the `games/` directory:
-
-- Pong
-- Space Invaders
-- Tetris
-- Breakout
-- And many more...
-
 ## License
 
 MIT
